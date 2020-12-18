@@ -18,25 +18,26 @@
     </header>
     <main class="main">
       <h2>Which type of message?</h2>
-      <div class="selector-box">
+      <form class="selector-form">
         <div class="styling-box">
           <div class="buttons">
-            <input type="radio" name="message-selector" value="mantra">
+            <input id="mantra-radio" type="radio" name="message-selector" value="mantra" checked="true">
             <label for="mantra">Mantra</label>
           </div>
           <div class="buttons">
-            <input type="radio" name="message-selector" value="affirmation">
+            <input id="affirmation-radio" type="radio" name="message-selector" value="affirmation">
             <label for="affirmation">Affirmation</label>
           </div>
         </div>
-        <button class="submit" type="button">Receive Message</button>
-      </div>
+        <button class="submit-button" type="submit">Receive Message</button>
+      </form>
       <div class="message-box">
-        <img src="" alt="">
+        <img class="buddha" src="./assets/meditate.svg" style="width: 75px;" alt="Meditating Buddha">
         <h3 class="message hidden">Can you see me now?</h3>
       </div>
     </main>
   </div>
 </body>
-<script></script>
+<script type="text/javascript" src="main.js"></script>
+
 </html>
